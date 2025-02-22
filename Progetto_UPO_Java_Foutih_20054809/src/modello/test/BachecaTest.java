@@ -176,6 +176,7 @@ class BachecaTest {
 
         bacheca.salvaAnnunciSuFile("src/modello/test/test.txt");		// Salvo su file
         bacheca.getAnnunci().clear();									// Svuoto la bacheca
+        bacheca.getPoolId().clear();									// Svuoto la pool degli id
         bacheca.caricaAnnunciDaFile("src/modello/test/test.txt");  		// Carico da file
 
         assertEquals(2, bacheca.getAnnunci().size());  					// Verifico se ci sono due annunci
