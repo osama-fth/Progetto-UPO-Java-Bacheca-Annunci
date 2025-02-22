@@ -1,0 +1,2 @@
+8685; [email= mario123@gmail.com, nome= mario123]; Televisore; 150,00; vendita; elettronica, TV; 2026-01-20
+1347; [email= mario123@gmail.com, nome= mario123]; Frigorifero; 200,00; vendita; elettronica, cucina; 2026-01-20

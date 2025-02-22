@@ -1,0 +1,6 @@
+2845; [email= mario@gmail.com, nome= mario123]; stampante; 24,98; vendita; canon, stampante, usato; 2027-09-01
+8153; [email= ricky02@gmail.com, nome= ricky02]; applewatch; 230,00; acquisto; usato; null
+6471; [email= paolo.bianchi@gmail.com, nome= paolo99]; stampante epson; 12,00; acquisto; stampante, epson; null
+8624; [email= luca1234@gmail.com, nome= luca123]; frigorifero; 50,00; vendita; usato, elettrodomestici; 2025-04-18
+6604; [email= marco.rossi02@gmail.it, nome= marco02]; playstation; 100,00; acquisto; sony, console, ps4; null
+6864; [email= osama123@gmail.com, nome= osama123]; prova_scaduto; 23,00; vendita; prova; 2011-12-09
