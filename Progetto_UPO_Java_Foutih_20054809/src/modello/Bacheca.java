@@ -122,16 +122,18 @@ public class Bacheca implements Iterable<Annuncio>{
      */
     public boolean pulisciBacheca() {
         ArrayList<Annuncio> annunciDaRimuovere = new ArrayList<>();
-
+	List<Integer> idDaRimuovere = new ArrayList<>();
+	    
         Iterator<Annuncio> iteratore = annunci.iterator();  
         while (iteratore.hasNext()) {
             Annuncio annuncio = iteratore.next();
             if (annuncio.isScaduto()) {
                 annunciDaRimuovere.add(annuncio);
+		idDaRimuovere.add(annuncio.getId());
             }
         }
 
-        return annunci.removeAll(annunciDaRimuovere);
+        return annunci.removeAll(annunciDaRimuovere) && poolId.removeAll(idDaRimuovere);
     }
     
     /**
