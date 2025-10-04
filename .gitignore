@@ -1,0 +1,31 @@
+# Compilati Java
+*.class
+*.log
+
+# Output build
+/build/
+/dist/
+-out/
+-target/
+-classes/
+/bin/
+
+# IDE
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+/.apt_generated/
+/.factorypath
+/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vari
+*.tmp
+*.swp
+*.swo
+*.jar
